@@ -1,0 +1,17 @@
+'%profilea':
+    jambit:
+        welcomemessage: Hallo bei Profile A
+'%profileb':
+    jambit:
+        welcomemessage: Hallo bei Profile B
+at:
+    java:
+        address: Vienna
+        email: michael@java.at
+        name: Michael
+jambit:
+    welcomemessage: Hallo bei Quarkus
+quarkus:
+    http:
+        cors: true
+        port: 8080
