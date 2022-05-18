@@ -1,0 +1,17 @@
+GET http://localhost:8080/api/customers
+
+###
+GET http://localhost:8080/api/customers/1
+
+###
+PUT http://localhost:8080/api/customers
+Content-Type: application/json
+
+{
+  "name": "Michael",
+  "dateOfBirth": "1990-01-01",
+  "status": "VIP"
+}
+
+###
+DELETE http://localhost:8080/api/customers/1

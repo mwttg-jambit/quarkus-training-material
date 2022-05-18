@@ -4,6 +4,7 @@ import lombok.extern.slf4j.Slf4j;
 
 import javax.annotation.PostConstruct;
 import javax.enterprise.context.ApplicationScoped;
+import java.time.LocalDate;
 import java.util.*;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.stream.Collectors;
@@ -17,6 +18,7 @@ public class CustomerRepoInMemory implements CustomerRepo{
     @PostConstruct
     public void postConstruct(){
         log.info("CustomerRepoInMemory was created");
+        save(new Customer(null, "Testkunde", LocalDate.of(1900, 1,1), Customer.Status.ORDINARY));
     }
 
     @Override
