@@ -2,6 +2,7 @@ package com.jambit.repos;
 
 import com.jambit.entities.Customer;
 import com.jambit.interceptors.MeasurePerformance;
+import io.quarkus.arc.DefaultBean;
 import lombok.extern.slf4j.Slf4j;
 
 import javax.annotation.PostConstruct;
@@ -14,6 +15,7 @@ import java.util.stream.Collectors;
 @ApplicationScoped
 @Slf4j
 @MeasurePerformance
+@DefaultBean
 public class CustomerRepoInMemory implements CustomerRepo{
     private AtomicLong nextId = new AtomicLong(1L);
     private Map<Long, Customer> customerMap = new HashMap<>();
