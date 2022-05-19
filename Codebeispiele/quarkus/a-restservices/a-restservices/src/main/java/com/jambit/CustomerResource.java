@@ -1,6 +1,7 @@
 package com.jambit;
 
 import com.jambit.events.CustomerCreatedEvent;
+import com.jambit.interceptors.MeasurePerformance;
 import lombok.AllArgsConstructor;
 
 import javax.enterprise.event.Event;
@@ -12,6 +13,7 @@ import java.time.Instant;
 import java.util.List;
 
 @Path("/api/customers")
+@MeasurePerformance
 public class CustomerResource {
     @Inject
     Event<CustomerCreatedEvent> customerCreatedEventEvent;

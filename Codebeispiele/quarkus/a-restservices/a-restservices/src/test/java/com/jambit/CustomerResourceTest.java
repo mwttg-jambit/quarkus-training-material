@@ -12,7 +12,7 @@ import java.util.Arrays;
 import static org.junit.jupiter.api.Assertions.*;
 
 @QuarkusTest
-class CustomerResourceTest {
+public class CustomerResourceTest {
 
     public static final String BASE_URL = "/api/customers";
 

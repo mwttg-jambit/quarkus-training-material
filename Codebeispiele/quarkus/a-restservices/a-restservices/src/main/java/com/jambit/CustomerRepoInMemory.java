@@ -1,5 +1,6 @@
 package com.jambit;
 
+import com.jambit.interceptors.MeasurePerformance;
 import lombok.extern.slf4j.Slf4j;
 
 import javax.annotation.PostConstruct;
@@ -11,6 +12,7 @@ import java.util.stream.Collectors;
 
 @ApplicationScoped
 @Slf4j
+@MeasurePerformance
 public class CustomerRepoInMemory implements CustomerRepo{
     private AtomicLong nextId = new AtomicLong(1L);
     private Map<Long, Customer> customerMap = new HashMap<>();
