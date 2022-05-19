@@ -15,3 +15,9 @@ quarkus:
     http:
         cors: true
         port: 8080
+    package:
+        type: uber-jar
+    application:
+        name: myapplication
+        version: v22
+
