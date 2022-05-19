@@ -1,0 +1,17 @@
+version: "3.7"
+
+services:
+  mariadb:
+    image: library/mariadb:10.5.8
+    volumes:
+    - mariadb:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: "customers"
+      MYSQL_DATABASE: "customers"
+      MYSQL_USER: "customers"
+      MYSQL_PASSWORD: "customers"
+    ports:
+    - 3306:3306
+    restart: always
+volumes:
+  mariadb:

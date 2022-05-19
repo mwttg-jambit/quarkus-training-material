@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/../a-restservices/a-restservices/pom.xml" />
+        <option value="$PROJECT_DIR$/../b-persistence/pom.xml" />
       </list>
     </option>
   </component>
