@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/../a-restservices/a-restservices/pom.xml" />
         <option value="$PROJECT_DIR$/../b-persistence/pom.xml" />
+        <option value="$PROJECT_DIR$/../c-fault-tolerance-server/pom.xml" />
       </list>
     </option>
   </component>

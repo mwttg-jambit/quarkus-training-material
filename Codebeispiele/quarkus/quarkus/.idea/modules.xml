@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../a-restservices/a-restservices/a-restservices.iml" filepath="$PROJECT_DIR$/../a-restservices/a-restservices/a-restservices.iml" />
       <module fileurl="file://$PROJECT_DIR$/../b-persistence/b-persistence.iml" filepath="$PROJECT_DIR$/../b-persistence/b-persistence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../c-fault-tolerance-server/c-fault-tolerance-server.iml" filepath="$PROJECT_DIR$/../c-fault-tolerance-server/c-fault-tolerance-server.iml" />
     </modules>
   </component>
 </project>
