@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="j2-fault-tolerance-client" />
+        <module name="c-configuration" />
+        <module name="b-rest-services" />
+        <module name="i-persistence" />
+        <module name="g-mocking" />
+        <module name="f-interceptors" />
+        <module name="a-hello-quarkus" />
+        <module name="k-observability" />
+        <module name="l-security" />
+        <module name="e-events" />
+        <module name="n-reactive" />
+        <module name="m-kafka-sender" />
+        <module name="j1-fault-tolerance-server" />
+        <module name="m-kafka-receiver" />
+        <module name="d-validation" />
+        <module name="h-native-running" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="a-hello-quarkus" target="11" />
+      <module name="b-rest-services" target="11" />
+      <module name="c-configuration" target="11" />
+      <module name="d-validation" target="11" />
+      <module name="demo" target="11" />
+      <module name="e-events" target="11" />
+      <module name="f-interceptors" target="11" />
+      <module name="g-mocking" target="11" />
+      <module name="h-native-running" target="11" />
+      <module name="i-persistence" target="11" />
+      <module name="j-fault-tolerance" target="11" />
+      <module name="j1-fault-tolerance-server" target="11" />
+      <module name="j2-fault-tolerance-client" target="11" />
+      <module name="k-obseravility" target="11" />
+      <module name="k-observability" target="11" />
+      <module name="l-security" target="11" />
+      <module name="m-kafka-receiver" target="11" />
+      <module name="m-kafka-sender" target="11" />
+      <module name="n-reactive" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="a-hello-quarkus" options="-parameters" />
+      <module name="b-rest-services" options="-parameters" />
+      <module name="c-configuration" options="-parameters" />
+      <module name="d-validation" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="e-events" options="-parameters" />
+      <module name="f-interceptors" options="-parameters" />
+      <module name="g-mocking" options="-parameters" />
+      <module name="h-native-running" options="-parameters" />
+      <module name="i-persistence" options="-parameters" />
+      <module name="j-fault-tolerance" options="-parameters" />
+      <module name="j1-fault-tolerance-server" options="-parameters" />
+      <module name="j2-fault-tolerance-client" options="-parameters" />
+      <module name="k-obseravility" options="-parameters" />
+      <module name="k-observability" options="-parameters" />
+      <module name="l-security" options="-parameters" />
+      <module name="m-kafka-receiver" options="-parameters" />
+      <module name="m-kafka-sender" options="-parameters" />
+      <module name="n-reactive" options="-parameters" />
+    </option>
+  </component>
+</project>

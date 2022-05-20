@@ -1,0 +1,21 @@
+GET http://localhost:8080/api/customers/v1
+
+###
+GET http://localhost:8080/api/customers/v2
+
+###
+GET http://localhost:8080/api/customers/1
+
+###
+PUT http://localhost:8080/api/customers
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Thomas",
+  "dateOfBirth": "2022-05-18",
+  "status": "KING"
+}
+
+###
+DELETE http://localhost:8080/api/customers/7

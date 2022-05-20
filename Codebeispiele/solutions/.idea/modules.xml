@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/a-hello-quarkus/a-hello-quarkus.iml" filepath="$PROJECT_DIR$/a-hello-quarkus/a-hello-quarkus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/b-rest-services/b-rest-services.iml" filepath="$PROJECT_DIR$/b-rest-services/b-rest-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c-configuration/c-configuration.iml" filepath="$PROJECT_DIR$/c-configuration/c-configuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/d-validation/d-validation.iml" filepath="$PROJECT_DIR$/d-validation/d-validation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e-events/e-events.iml" filepath="$PROJECT_DIR$/e-events/e-events.iml" />
+      <module fileurl="file://$PROJECT_DIR$/f-interceptors/f-interceptors.iml" filepath="$PROJECT_DIR$/f-interceptors/f-interceptors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/g-mocking/g-mocking.iml" filepath="$PROJECT_DIR$/g-mocking/g-mocking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/h-native-running/h-native-running.iml" filepath="$PROJECT_DIR$/h-native-running/h-native-running.iml" />
+      <module fileurl="file://$PROJECT_DIR$/i-persistence/i-persistence.iml" filepath="$PROJECT_DIR$/i-persistence/i-persistence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/j1-fault-tolerance-server/j1-fault-tolerance-server.iml" filepath="$PROJECT_DIR$/j1-fault-tolerance-server/j1-fault-tolerance-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/j2-fault-tolerance-client/j2-fault-tolerance-client.iml" filepath="$PROJECT_DIR$/j2-fault-tolerance-client/j2-fault-tolerance-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/k-observability/k-observability.iml" filepath="$PROJECT_DIR$/k-observability/k-observability.iml" />
+      <module fileurl="file://$PROJECT_DIR$/l-security/l-security.iml" filepath="$PROJECT_DIR$/l-security/l-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/m-kafka-receiver/m-kafka-receiver.iml" filepath="$PROJECT_DIR$/m-kafka-receiver/m-kafka-receiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/m-kafka-sender/m-kafka-sender.iml" filepath="$PROJECT_DIR$/m-kafka-sender/m-kafka-sender.iml" />
+      <module fileurl="file://$PROJECT_DIR$/n-reactive/n-reactive.iml" filepath="$PROJECT_DIR$/n-reactive/n-reactive.iml" />
+    </modules>
+  </component>
+</project>

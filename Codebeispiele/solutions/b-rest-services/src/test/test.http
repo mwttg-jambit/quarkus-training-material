@@ -1,0 +1,33 @@
+GET http://localhost:8080/v1/customers
+###
+GET http://localhost:8080/v1/customers/88
+### get non existing customer -> 404
+GET http://localhost:8080/v1/customers/101
+### create new customer
+POST http://localhost:8080/v1/customers
+Content-Type: application/json
+
+{
+  "name": "Michael Schaffler",
+  "dateOfBirth": "1967-07-29",
+  "status": "VIP"
+}
+### post customer with id -> bad request
+POST http://localhost:8080/v1/customers
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Michael Schaffler",
+  "dateOfBirth": "1967-07-29",
+  "status": "VIP"
+}
+### update customer
+PUT http://localhost:8080/v1/customers/1
+Content-Type: application/json
+
+{
+  "name": "Michael Schaffler",
+  "dateOfBirth": "1967-07-29",
+  "status": "VIP"
+}

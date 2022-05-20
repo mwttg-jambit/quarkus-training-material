@@ -1,0 +1,7 @@
+GET http://localhost:8081/configured/hello
+### test different profiles (see comments in application.yml)
+GET http://localhost:8081/configured/dbhost
+###
+GET http://localhost:8081/configured/multiple/props
+###
+GET http://localhost:8081/configured/via/api

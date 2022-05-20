@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/../b-persistence/b-persistence.iml" filepath="$PROJECT_DIR$/../b-persistence/b-persistence.iml" />
       <module fileurl="file://$PROJECT_DIR$/../c-fault-tolerance-client/c-fault-tolerance-client.iml" filepath="$PROJECT_DIR$/../c-fault-tolerance-client/c-fault-tolerance-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/../c-fault-tolerance-server/c-fault-tolerance-server.iml" filepath="$PROJECT_DIR$/../c-fault-tolerance-server/c-fault-tolerance-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../d-kafka-receiver/d-kafka-receiver.iml" filepath="$PROJECT_DIR$/../d-kafka-receiver/d-kafka-receiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../d-kafka-sender/d-kafka-sender.iml" filepath="$PROJECT_DIR$/../d-kafka-sender/d-kafka-sender.iml" />
     </modules>
   </component>
 </project>

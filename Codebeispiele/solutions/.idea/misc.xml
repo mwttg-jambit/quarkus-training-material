@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/rest-services/pom.xml" />
+        <option value="$PROJECT_DIR$/rest-services-configuration/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-quarkus/pom.xml" />
+        <option value="$PROJECT_DIR$/d-validation/pom.xml" />
+        <option value="$PROJECT_DIR$/a-hello-quarkus/pom.xml" />
+        <option value="$PROJECT_DIR$/b-rest-services/pom.xml" />
+        <option value="$PROJECT_DIR$/c-configuration/pom.xml" />
+        <option value="$PROJECT_DIR$/e-events/pom.xml" />
+        <option value="$PROJECT_DIR$/f-interceptors/pom.xml" />
+        <option value="$PROJECT_DIR$/g-mocking/pom.xml" />
+        <option value="$PROJECT_DIR$/h-native-running/pom.xml" />
+        <option value="$PROJECT_DIR$/i-persistence/pom.xml" />
+        <option value="$PROJECT_DIR$/j2-fault-tolerance-client/pom.xml" />
+        <option value="$PROJECT_DIR$/j1-fault-tolerance-server/pom.xml" />
+        <option value="$PROJECT_DIR$/k-observability/pom.xml" />
+        <option value="$PROJECT_DIR$/l-security/pom.xml" />
+        <option value="$PROJECT_DIR$/m-kafka-sender/pom.xml" />
+        <option value="$PROJECT_DIR$/m-kafka-receiver/pom.xml" />
+        <option value="$PROJECT_DIR$/n-reactive/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+  <component name="SwUserDefinedSpecifications">
+    <option name="specTypeByUrl">
+      <map />
+    </option>
+  </component>
+</project>

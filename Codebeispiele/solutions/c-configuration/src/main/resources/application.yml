@@ -1,0 +1,36 @@
+#instead of properties also yaml files can be used
+#overwrite properties using system properties like -Dat.javatraining.greeting="Michael was here" when running the jar file
+# for this to work, you have to add the yaml extension:
+#  <dependency>
+#    <groupId>io.quarkus</groupId>
+#    <artifactId>quarkus-config-yaml</artifactId>
+#</dependency>
+at:
+    javatraining:
+        greeting: "Hello from javatraining"
+        dbhost: "default.javatraining.at"
+quarkus:
+    application:
+        name: customers
+        version: V1
+    http:
+        cors: true
+        port: 8081
+    log:
+        level: DEBUG
+        file:
+            enable: true
+
+# for setting an individual logger: quarkus.log.category."at.javatraining".level=DEBUG
+
+# different profiles:
+# if no profile is active the ordinary property is used
+# activate a profile by handing over -Dquarkus.profile=profile_prod
+"%profile_prod":
+    at:
+        javatraining:
+            dbhost: "dbprod.javatraining.at"
+"%profile_test":
+    at:
+        javatraining:
+            dbhost: "dbtest.javatraining.at"

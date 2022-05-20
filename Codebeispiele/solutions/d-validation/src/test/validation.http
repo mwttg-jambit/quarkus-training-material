@@ -1,0 +1,78 @@
+### valid customer
+POST http://localhost:8081/v1/customers
+Content-Type: application/json
+
+{
+  "name": "Michael Schaffler",
+  "dateOfBirth": "1967-07-29",
+  "status": "VIP"
+}
+
+### name too short
+POST http://localhost:8081/v1/customers
+Content-Type: application/json
+
+{
+  "name": "123",
+  "dateOfBirth": "1967-07-29",
+  "status": "VIP"
+}
+
+### Date in future
+POST http://localhost:8081/v1/customers
+Content-Type: application/json
+
+{
+  "name": "Michael Schaffler",
+  "dateOfBirth": "2022-07-29",
+  "status": "VIP"
+}
+
+### Status  is null
+POST http://localhost:8081/v1/customers
+Content-Type: application/json
+
+{
+  "name": "Michael Schaffler",
+  "dateOfBirth": "1999-07-29"
+}
+
+### Multiple errors
+POST http://localhost:8081/v1/customers
+Content-Type: application/json
+
+{
+  "name": "Michael Schaffler adasdasd asdasdasdasd asdasdasdasd",
+  "dateOfBirth": "2022-07-29"
+}
+
+### invalid Habsburger
+POST http://localhost:8081/v1/customers
+Content-Type: application/json
+
+{
+  "name": "Michael von Habsburg",
+  "dateOfBirth": "1967-07-29",
+  "status": "VIP"
+}
+
+### VALID Habsburger
+POST http://localhost:8081/v1/customers
+Content-Type: application/json
+
+{
+  "name": "Michael von Habsburg",
+  "dateOfBirth": "1967-07-29",
+  "status": "KING"
+}
+
+### Testing programmatic validation and debug level of at.javatraining (see application.properties)
+PUT http://localhost:8081/v1/customers/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Mi",
+  "dateOfBirth": "2025-07-29",
+  "status": "VIP"
+}

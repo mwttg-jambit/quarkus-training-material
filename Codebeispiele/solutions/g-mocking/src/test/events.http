@@ -1,0 +1,12 @@
+### valid customer
+POST http://localhost:8081/v1/customers
+Content-Type: application/json
+
+{
+  "name": "Michael Schaffler",
+  "dateOfBirth": "1967-07-29",
+  "status": "VIP"
+}
+
+### get customercreated count
+GET http://localhost:8081/v1/statistics/customers

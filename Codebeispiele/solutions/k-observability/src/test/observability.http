@@ -1,0 +1,13 @@
+# open in browser
+http://localhost:8080/q/dev
+### check if service is alive
+http://localhost:8080/q/health/live
+### check if service is ready to handle requests
+http://localhost:8080/q/health/ready
+###
+http://localhost:8080/q/health
+### open in browser
+http://localhost:8080/q/health-ui
+###
+http://localhost:8080/q/metrics/application
+Accept: application/json

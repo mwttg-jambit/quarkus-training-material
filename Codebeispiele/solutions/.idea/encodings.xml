@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/a-hello-quarkus/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/a-hello-quarkus/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b-rest-services/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b-rest-services/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/c-configuration/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/c-configuration/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/d-validation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/d-validation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e-events/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e-events/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/f-interceptors/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/f-interceptors/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/g-mocking/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/g-mocking/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/h-native-running/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/h-native-running/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/i-persistence/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/i-persistence/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/j1-fault-tolerance-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/j1-fault-tolerance-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/j2-fault-tolerance-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/j2-fault-tolerance-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/k-observability/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/k-observability/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/l-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/l-security/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/m-kafka-receiver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/m-kafka-receiver/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/m-kafka-sender/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/m-kafka-sender/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/n-reactive/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/n-reactive/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

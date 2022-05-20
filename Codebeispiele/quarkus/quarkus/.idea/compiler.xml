@@ -9,8 +9,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="a-restservices" />
         <module name="b-persistence" />
+        <module name="d-kafka-receiver" />
         <module name="c-fault-tolerance-server" />
         <module name="c-fault-tolerance-client" />
+        <module name="d-kafka-sender" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,6 +20,8 @@
       <module name="b-persistence" target="11" />
       <module name="c-fault-tolerance-client" target="11" />
       <module name="c-fault-tolerance-server" target="11" />
+      <module name="d-kafka-receiver" target="11" />
+      <module name="d-kafka-sender" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -26,6 +30,8 @@
       <module name="b-persistence" options="-parameters" />
       <module name="c-fault-tolerance-client" options="-parameters" />
       <module name="c-fault-tolerance-server" options="-parameters" />
+      <module name="d-kafka-receiver" options="-parameters" />
+      <module name="d-kafka-sender" options="-parameters" />
     </option>
   </component>
 </project>

@@ -1,0 +1,14 @@
+GET http://localhost:8080/v1/customers?block=true
+###
+
+GET http://localhost:8081/count
+###
+
+GET http://localhost:8081/count/retry
+
+###
+GET http://localhost:8081/count/fallback
+###
+GET http://localhost:8081/count/timeout
+###
+GET http://localhost:8081/count/circuitbreaker

@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/../b-persistence/pom.xml" />
         <option value="$PROJECT_DIR$/../c-fault-tolerance-server/pom.xml" />
         <option value="$PROJECT_DIR$/../c-fault-tolerance-client/pom.xml" />
+        <option value="$PROJECT_DIR$/../d-kafka-sender/pom.xml" />
+        <option value="$PROJECT_DIR$/../d-kafka-receiver/pom.xml" />
       </list>
     </option>
   </component>
