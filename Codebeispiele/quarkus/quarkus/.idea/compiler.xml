@@ -8,10 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="a-restservices" />
-        <module name="b-persistence" />
         <module name="d-kafka-receiver" />
-        <module name="c-fault-tolerance-server" />
         <module name="c-fault-tolerance-client" />
+        <module name="e-reactive" />
+        <module name="b-persistence" />
+        <module name="c-fault-tolerance-server" />
         <module name="d-kafka-sender" />
       </profile>
     </annotationProcessing>
@@ -22,6 +23,7 @@
       <module name="c-fault-tolerance-server" target="11" />
       <module name="d-kafka-receiver" target="11" />
       <module name="d-kafka-sender" target="11" />
+      <module name="e-reactive" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -32,6 +34,7 @@
       <module name="c-fault-tolerance-server" options="-parameters" />
       <module name="d-kafka-receiver" options="-parameters" />
       <module name="d-kafka-sender" options="-parameters" />
+      <module name="e-reactive" options="-parameters" />
     </option>
   </component>
 </project>

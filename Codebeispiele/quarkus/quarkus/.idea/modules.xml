@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/../c-fault-tolerance-server/c-fault-tolerance-server.iml" filepath="$PROJECT_DIR$/../c-fault-tolerance-server/c-fault-tolerance-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/../d-kafka-receiver/d-kafka-receiver.iml" filepath="$PROJECT_DIR$/../d-kafka-receiver/d-kafka-receiver.iml" />
       <module fileurl="file://$PROJECT_DIR$/../d-kafka-sender/d-kafka-sender.iml" filepath="$PROJECT_DIR$/../d-kafka-sender/d-kafka-sender.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../e-reactive/e-reactive.iml" filepath="$PROJECT_DIR$/../e-reactive/e-reactive.iml" />
     </modules>
   </component>
 </project>

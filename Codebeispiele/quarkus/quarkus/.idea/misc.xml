@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/../c-fault-tolerance-client/pom.xml" />
         <option value="$PROJECT_DIR$/../d-kafka-sender/pom.xml" />
         <option value="$PROJECT_DIR$/../d-kafka-receiver/pom.xml" />
+        <option value="$PROJECT_DIR$/../e-reactive/pom.xml" />
       </list>
     </option>
   </component>
