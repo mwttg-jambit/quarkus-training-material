@@ -7,14 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="b-persistence" />
         <module name="a-restservices" />
+        <module name="b-persistence" />
         <module name="c-fault-tolerance-server" />
+        <module name="c-fault-tolerance-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="a-restservices" target="11" />
       <module name="b-persistence" target="11" />
+      <module name="c-fault-tolerance-client" target="11" />
       <module name="c-fault-tolerance-server" target="11" />
     </bytecodeTargetLevel>
   </component>
@@ -22,6 +24,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="a-restservices" options="-parameters" />
       <module name="b-persistence" options="-parameters" />
+      <module name="c-fault-tolerance-client" options="-parameters" />
       <module name="c-fault-tolerance-server" options="-parameters" />
     </option>
   </component>

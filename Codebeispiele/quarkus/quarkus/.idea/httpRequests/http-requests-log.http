@@ -1,0 +1,300 @@
+GET http://localhost:8081/counter/ciruitbreaker
+
+<> 2022-05-20T113133.500.json
+
+###
+
+GET http://localhost:8081/counter/ciruitbreaker
+
+<> 2022-05-20T113132.500.json
+
+###
+
+GET http://localhost:8081/counter/ciruitbreaker
+
+<> 2022-05-20T113131.500.json
+
+###
+
+GET http://localhost:8081/counter/ciruitbreaker
+
+<> 2022-05-20T113130.500.json
+
+###
+
+GET http://localhost:8081/counter/ciruitbreaker
+
+<> 2022-05-20T113129.500.json
+
+###
+
+GET http://localhost:8081/counter/ciruitbreaker
+
+<> 2022-05-20T113128.500.json
+
+###
+
+GET http://localhost:8081/counter/ciruitbreaker
+
+<> 2022-05-20T113127.500.json
+
+###
+
+GET http://localhost:8081/counter/ciruitbreaker
+
+<> 2022-05-20T113126.500.json
+
+###
+
+GET http://localhost:8081/counter/ciruitbreaker
+
+<> 2022-05-20T113125.500.json
+
+###
+
+GET http://localhost:8081/counter/ciruitbreaker
+
+<> 2022-05-20T113124.200.json
+
+###
+
+GET http://localhost:8081/counter/ciruitbreaker
+
+<> 2022-05-20T113124.500.json
+
+###
+
+GET http://localhost:8081/counter/ciruitbreaker
+
+<> 2022-05-20T113122.200.json
+
+###
+
+GET http://localhost:8081/counter/ciruitbreaker
+
+<> 2022-05-20T113121.500.json
+
+###
+
+GET http://localhost:8081/counter/ciruitbreaker
+
+<> 2022-05-20T113120.200.json
+
+###
+
+GET http://localhost:8081/counter/ciruitbreaker
+
+<> 2022-05-20T113120.500.json
+
+###
+
+GET http://localhost:8081/counter/ciruitbreaker
+
+<> 2022-05-20T113119.200.json
+
+###
+
+GET http://localhost:8081/counter/ciruitbreaker
+
+<> 2022-05-20T113118.500.json
+
+###
+
+GET http://localhost:8081/counter/ciruitbreaker
+
+<> 2022-05-20T113117.200.json
+
+###
+
+GET http://localhost:8081/counter/ciruitbreaker
+
+<> 2022-05-20T113116.500.json
+
+###
+
+GET http://localhost:8081/counter/ciruitbreaker
+
+<> 2022-05-20T113115.200.json
+
+###
+
+GET http://localhost:8081/counter/ciruitbreaker
+
+<> 2022-05-20T113114.500.json
+
+###
+
+GET http://localhost:8081/counter/ciruitbreaker
+
+<> 2022-05-20T113112.500.json
+
+###
+
+GET http://localhost:8081/counter/ciruitbreaker
+
+<> 2022-05-20T113111-1.500.json
+
+###
+
+GET http://localhost:8081/counter/ciruitbreaker
+
+<> 2022-05-20T113111.500.json
+
+###
+
+GET http://localhost:8081/counter/ciruitbreaker
+
+<> 2022-05-20T113110.500.json
+
+###
+
+GET http://localhost:8081/counter/ciruitbreaker
+
+<> 2022-05-20T113109.200.json
+
+###
+
+GET http://localhost:8081/counter/ciruitbreaker
+
+<> 2022-05-20T113108.500.json
+
+###
+
+GET http://localhost:8081/counter/ciruitbreaker
+
+<> 2022-05-20T113107.200.json
+
+###
+
+GET http://localhost:8081/counter/ciruitbreaker
+
+<> 2022-05-20T113106.500.json
+
+###
+
+GET http://localhost:8081/counter/ciruitbreaker
+
+<> 2022-05-20T113105.200.json
+
+###
+
+GET http://localhost:8081/counter/ciruitbreaker
+
+<> 2022-05-20T113104.500.json
+
+###
+
+GET http://localhost:8081/counter/ciruitbreaker
+
+<> 2022-05-20T113102.200.json
+
+###
+
+GET http://localhost:8081/counter/ciruitbreaker
+
+<> 2022-05-20T113100.500.json
+
+###
+
+GET http://localhost:8081/counter/ciruitbreaker
+
+<> 2022-05-20T113058.200.json
+
+###
+
+GET http://localhost:8081/counter/timeout
+
+<> 2022-05-20T112429.500.json
+
+###
+
+GET http://localhost:8081/counter/timeout
+
+<> 2022-05-20T112426.200.json
+
+###
+
+GET http://localhost:8081/counter/timeout
+
+<> 2022-05-20T111918.500.json
+
+###
+
+GET http://localhost:8081/counter/timeout
+
+<> 2022-05-20T111855.200.json
+
+###
+
+GET http://localhost:8081/counter/failover
+
+<> 2022-05-20T111523.200.json
+
+###
+
+GET http://localhost:8081/counter/failover
+
+<> 2022-05-20T111522.200.json
+
+###
+
+GET http://localhost:8081/counter/failover
+
+<> 2022-05-20T111521.200.json
+
+###
+
+GET http://localhost:8081/counter/failover
+
+<> 2022-05-20T111520.200.json
+
+###
+
+GET http://localhost:8081/counter/failover
+
+<> 2022-05-20T111519.200.json
+
+###
+
+GET http://localhost:8081/counter/failover
+
+<> 2022-05-20T111518.200.json
+
+###
+
+GET http://localhost:8081/counter/failover
+
+<> 2022-05-20T111516.200.json
+
+###
+
+GET http://localhost:8081/counter/failover
+
+<> 2022-05-20T111515.200.json
+
+###
+
+GET http://localhost:8081/counter/failover
+
+<> 2022-05-20T111514.200.json
+
+###
+
+GET http://localhost:8081/counter/failover
+
+<> 2022-05-20T111513.200.json
+
+###
+
+GET http://localhost:8081/counter/failover
+
+<> 2022-05-20T111511.200.json
+
+###
+
+GET http://localhost:8081/counter/retry
+
+<> 2022-05-20T110814.200.json
+
+###
+

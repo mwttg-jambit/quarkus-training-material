@@ -1,0 +1,16 @@
+GET http://localhost:8081/counter
+
+###
+
+GET http://localhost:8081/counter/retry
+
+###
+
+GET http://localhost:8081/counter/failover
+
+
+###
+GET http://localhost:8081/counter/timeout
+
+###
+GET http://localhost:8081/counter/ciruitbreaker
